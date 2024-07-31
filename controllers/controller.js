@@ -169,16 +169,16 @@ const forgotPassword = (db) => {
       const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "saipremkakumani@gmail.com", // Replace with your email address@example.com",
+          user: "adarsh.kintali2002@gmail.com", // Replace with your email address@example.com",
           pass: "wjvtbmksjjpzqixc",
         },
       });
 
       const mailOptions = {
-        from: "saipremkakumani@gmail.com",
+        from: "adarsh.kintali2002@gmail.com",
         to: email,
         subject: "Password Reset",
-        text: `Click the following link to reset your password: https://tp-cell.vercel.app/reset-password/${resetToken}`,
+        text: `Click the following link to reset your password: https://tpoclient-adarshs-projects-2dbf7969.vercel.app/reset-password/${resetToken}`,
       };
 
       await transporter.sendMail(mailOptions);
