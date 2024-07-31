@@ -170,7 +170,7 @@ const forgotPassword = (db) => {
         service: "gmail",
         auth: {
           user: "adarsh.kintali2002@gmail.com", // Replace with your email address@example.com",
-          pass: "wjvtbmksjjpzqixc",
+          pass: "pfhq wxvy jrqu zwvq",
         },
       });
 
