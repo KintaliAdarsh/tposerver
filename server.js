@@ -24,6 +24,7 @@ const io = new Server(server, {
 });
 
 //middlewares
+//cross-origin resource sharing
 app.use(cors());
 app.use(express.json());
 
